@@ -1,0 +1,15 @@
+{
+    "editor.fontFamily": "'JetBrains Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontLigatures": true,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "boundary",
+    "editor.rulers": [ 80 ],
+    "editor.trimAutoWhitespace": true,
+    "explorer.openEditors.visible": 0,
+    "extensions.ignoreRecommendations": true,
+    "files.trimTrailingWhitespace": true,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "window.restoreWindows": "none",
+    "workbench.startupEditor": "none"
+}
