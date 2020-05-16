@@ -12,17 +12,17 @@ My dotfiles.
 
 > [.config/Code/User/settings.json](.config/Code/User/settings.json)
 
-* Enable [JetBrains Mono](https://www.jetbrains.com/lp/mono/) font with `ligatures`
-* Disable `minimap`
-* Render `whitespaces`
-* Render vertical `ruler` after `80 characters`
-* Remove trailing auto inserted `whitespace`
-* Disable `multiple editors` in the Open Editors pane
-* Disable notifications for `extension recommendations`
-* Trim trailing `whitespace` when saving a file
-* Disable `telemetry`
-* Disable `windows restoration` after a restart
-* Disable `startup editor`
+* Enables [JetBrains Mono](https://www.jetbrains.com/lp/mono/) font with `ligatures`
+* Disables `minimap`
+* Renders `whitespaces`
+* Renders vertical `ruler` after `80 characters`
+* Removes trailing auto inserted `whitespace`
+* Disables `multiple editors` in the Open Editors pane
+* Disables notifications for `extension recommendations`
+* Trims trailing `whitespace` when saving a file
+* Disables `telemetry`
+* Disables `windows restoration` after a restart
+* Disables `startup editor`
 
 ### Emacs
 
@@ -30,15 +30,17 @@ My dotfiles.
 
 > [.emacs](.emacs)
 
-* Enable [MELPA](https://melpa.org/) repository
-* Enable `monokai-theme`, `rust-mode`, `toml-mode`, `markdown-mode` and `powerline` packages
-* Render `whitespaces`
-* Use `spaces` instead of `tabs`
-* Render `line number`
-* Disable `menu bar`
-* Show matching `pairs`
-* Disable `backup files`
-* Disable `auto save`
+* Enables [MELPA](https://melpa.org/) repository
+* Adds `monokai-theme`, `rust-mode`, `toml-mode`, `markdown-mode` and `powerline` packages
+* Renders `whitespaces`
+* Uses `spaces` instead of `tabs`
+* Renders `line number`
+* Disables `menu bar`
+* Shows matching `pairs`
+* Disables `backup files`
+* Disables `auto save`
+* Sets `monokai theme`
+* Enables `powerline`
 
 ### Zsh
 
@@ -46,13 +48,13 @@ My dotfiles.
 
 > [.zshrc](.zshrc)
 
-* Define `ls` color setup
-* Enable `completion`
-* Custom `prompt`
-* Limit `history size`
-* Custom `aliases`
-* Define `key bindings`
-* Enable `colored man pages`
+* Enables `autocompletion`
+* Sets `prompt`
+* Configures `history`
+* Sets `aliases`
+* Defines `key bindings`
+* Enables `colored man pages`
+* Enables Shared Compilation Cache for `Rust`
 
 ## License
 

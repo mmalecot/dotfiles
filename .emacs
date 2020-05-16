@@ -1,4 +1,4 @@
-;; Enable MELPA repository
+;; Enables MELPA repository
 (require 'package)
 (let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))
                     (not (gnutls-available-p))))
@@ -18,7 +18,7 @@ There are two things you can do about this warning:
     (add-to-list 'package-archives (cons "gnu" (concat proto "://elpa.gnu.org/packages/")))))
 (package-initialize)
 
-;; MELPA packages
+;; Ensures that packages are installed
 (defun ensure-package-installed (&rest packages)
   (mapcar
     (lambda (package)
@@ -35,30 +35,30 @@ There are two things you can do about this warning:
  'powerline
 )
 
-;; Render whitespaces
+;; Renders whitespaces
 (setq-default show-trailing-whitespace t)
 
-;; Use spaces instead of tabs
+;; Uses spaces instead of tabs
 (setq-default indent-tabs-mode nil)
 
-;; Show line number with format
+;; Renders line number
 (global-linum-mode 1)
 (setq linum-format "%4d \u2502")
 
-;; Disable menu bar
+;; Disables menu bar
 (menu-bar-mode -1)
 
-;; Show matching pairs
+;; Shows matching pairs
 (show-paren-mode 1)
 
-;; Disable backup files
+;; Disables backup files
 (setq make-backup-files nil)
 
-;; Disable auto save
+;; Disables auto save
 (setq auto-save-default nil)
 
-;; Load theme
+;; Sets monokai theme
 (load-theme 'monokai t)
 
-;; Enable powerline
+;; Enables powerline
 (powerline-default-theme)
