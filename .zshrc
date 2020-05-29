@@ -79,13 +79,3 @@ man() {
   LESS_TERMCAP_us=$'\e[01;32m' \
   command man "$@"
 }
-
-################################################################################
-# RUST                                                                         #
-################################################################################
-
-# Adds the Cargo bin directory to PATH variable
-export PATH=$PATH:~/.cargo/bin
-
-# Enables Shared Compilation Cache
-export RUSTC_WRAPPER=sccache

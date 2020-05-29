@@ -54,7 +54,6 @@ My dotfiles.
 * Sets `aliases`
 * Defines `key bindings`
 * Enables `colored man pages`
-* Enables Shared Compilation Cache for `Rust`
 
 ## License
 
